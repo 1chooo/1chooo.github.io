@@ -1,5 +1,5 @@
 body {
-    font-family: monospace;
+    font-family: Arial;
 }
 
 ul {
@@ -11,23 +11,33 @@ ul {
     --white: #FFFFFF;
     --black: #000000;
 }
-
-.light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-}
 .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-}
-
-body {
-    background: var(--bg);
-    color: var(--fontColor);
-    font-family: helvetica;
+    background-color: #000000;
 }
 
 a, a:hover, a:visited, a:active {
     color: inherit;
     text-decoration: none;
+}
+
+.top {
+    position: absolute;
+    width: 1877px;
+    height: 118.5px;
+    left: 21px;
+    top: 21.5px;
+    font-family: Arial;
+    background-color: #FFFFFF;
+}
+
+/* facicon */
+
+.mark-icon {
+    position: absolute;
+    left: 3.75%;
+    right: 92.6%;
+    top: 25%;
+    bottom: 25%;
+
+    background: url(./src/img/icon.png);
 }
